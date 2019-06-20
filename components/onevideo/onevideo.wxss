@@ -1,0 +1,26 @@
+.videoScrollItem {
+ width: 177rpx;
+ display: inline-block;
+ margin-right: 25rpx;
+ margin-top: 5rpx;
+}
+.photoBox {
+  border-radius: 10rpx;
+  overflow: hidden;
+  width: auto;
+  height: 256rpx;
+  font-size: 0;
+}
+.videoScrollItem .bigPhotoBox {
+  width: 100%;
+  height: 100%;
+}
+.videoTitle {
+  margin: 10rpx 0;
+  font-size: 25rpx;
+  font-weight: 600;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

@@ -1,0 +1,10 @@
+<view class='indexBox'>
+
+<searchbar></searchbar>
+
+<classify videoTpye="电影" videoData="{{movieData}}" videoEnTpye="movie" moveUrl = "/pages/move/move?type=movie" ></classify>
+<classify videoTpye="电视剧" videoData="{{tvhot}}" videoEnTpye="tv" moveUrl = "/pages/move/move?type=tv"></classify>
+<classify videoTpye="热门综艺" videoData="{{show}}" videoEnTpye="show" moveUrl = "/pages/move/move?type=show"></classify>
+
+</view>
+

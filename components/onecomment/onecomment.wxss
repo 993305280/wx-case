@@ -1,0 +1,37 @@
+.userComment {
+  display: flex;
+  justify-content: space-between;
+}
+.HeaderPhoto {
+  width: 70rpx;
+  height: 70rpx;
+  padding: 20rpx;
+  overflow: hidden;
+  margin-left: -20rpx;
+}
+.HeaderPhoto .userheaderPhoto {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.commentIntro {
+  flex: 1;
+  padding-top: 25rpx;
+}
+.userIntro {
+  display: flex;
+  align-items: center;
+}
+.userName {
+  font-size: 36rpx;
+  margin-right: 20rpx;
+}
+.commentDate {
+  color: #ccc;
+  font-size: 30rpx;
+  margin: 10rpx 0;
+}
+.commentContent {
+  font-size: 32rpx;
+  color: #353535;
+}

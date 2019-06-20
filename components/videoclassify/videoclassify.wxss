@@ -1,0 +1,24 @@
+.videoClassify {
+  padding: 20rpx 30rpx;
+}
+.videoClassify .classifyTop {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+}
+.videoClassify .lookMove {
+    color: #41be57;
+}
+.lookMove .classifyTitle {
+  color: #545454;
+} 
+.classifyBottom {
+  margin-top: 20rpx;
+}
+.classifyBottom .videoScroll {
+  white-space: nowrap;
+}
+
+/* .classifyBottom .videoScroll:last-child {
+  margin-right: 0;
+} */

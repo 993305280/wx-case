@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "seachbar":"/components/searchbar/searchbar"
+  },
+  
+  "navigationBarTitleText": "电影搜索"
+  
+}

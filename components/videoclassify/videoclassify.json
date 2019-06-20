@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "onevideo":"/components/onevideo/onevideo"
+  }
+}

@@ -1,0 +1,40 @@
+<view class='videoDetail'>
+  <view class='detailHeader'>
+    <view class='videoName'>
+      {{detailData.title}}
+    </view>
+    <view class='videoIntro'>
+      <view class='introLeft'>
+        <view class='videoComment'><star starSize="27" class="videoStar" rate="{{detailData.rating.value}}"></star><text class='videoCommentNum'>{{detailData.comment_count}}人评价</text></view>
+        <view class='videoType'>
+          {{detailData.author}}
+        </view>
+        <view class='videoRun'>
+          {{detailData.pubdate[0]}}
+        </view>
+        <view class='videoPeople'>
+          {{detailData.card_subtitle}}
+        </view>
+      </view>
+      <view class='introRight'>
+        <image class='videoPhoto' src='{{detailData.cover.image.small.url}}'></image>
+      </view>
+    </view>
+  </view>
+
+<view class='videoTag'>
+    <view class='peopleTag'>豆瓣成员常用标签</view>
+    <view class='videoTagIntro'>
+      <text wx:for="{{tagsData}}" wx:key="index">{{item}}</text>
+    </view>
+</view>
+
+<view class='shortComment'>
+  <view class='commentTitle'>短评({{commentPeople}})</view>
+
+<onecomment wx:for="{{commentData}}" item="{{item}}" wx:key="{{index}}"></onecomment>
+
+</view>
+
+<navigator class='moreComment' url='/pages/morecomment/morecomment?id={{id}}&type={{type}}&videoUrl={{detailData.cover.image.small.url}}&videotitle={{detailData.title}}&grade={{detailData.rating.value}}'>查看更多短评</navigator>
+</view>

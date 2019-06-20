@@ -1,0 +1,35 @@
+.commentTotal {
+  padding: 50rpx 40rpx 20rpx;
+}
+.commentVideo {
+  display: flex;
+  align-items: center;
+}
+.commentVideo .commentVideoPhoto {
+  width: 100rpx;
+  height: 140rpx;
+}
+.commentVideoTitle {
+  font-size: 36rpx;
+  color: #41be57;
+  padding: 0 20rpx;
+}
+.commentVideoScore {
+  color: #ccc;
+  font-size: 32rpx;
+}
+.commentContent {
+  margin-top: 60rpx;
+  font-size: 40rpx;
+}
+.totalCommentTitle {
+  margin-bottom: 20rpx;
+}
+.commentTotal button {
+  margin-top: 50rpx;
+  color: #ccc;
+}
+.downBtn::after {
+  background: transparent;
+  border: none;
+}

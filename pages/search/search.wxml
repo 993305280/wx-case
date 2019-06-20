@@ -1,0 +1,10 @@
+<seachbar bindsearchComEvent="onsearchListData" showValue="{{true}}"></seachbar>
+<view class='searchDataList'>
+    <view wx:for="{{searchTotailData}}" wx:key="{{index}}" class='searchListItem' bindtap='onDetailPage' data-id = "{{item.id}}">
+      <image class='searchVideoPhoto' src='{{item.pic.normal}}'></image>
+      <view class='searchVideoIntro'>
+        <view class='searchVideoName'>{{item.title}}</view>
+        <view class='searchVideoTime'>{{item.rating.value}}分/{{item.year}}</view>
+      </view>
+    </view>
+</view>

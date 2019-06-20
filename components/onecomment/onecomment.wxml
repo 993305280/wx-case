@@ -1,0 +1,17 @@
+<view class='userComment'>
+  <view class='HeaderPhoto'>
+    <image class='userheaderPhoto' src='{{item.user.avatar}}'></image>
+  </view>
+  <view class='commentIntro'>
+    <view class='userIntro'>
+      <text class='userName'>{{item.user.name}}</text>
+      <star rate="{{item.rating.value * 2}}" starSize="33" starShow="{{starShow}}"></star>
+    </view>
+    <view class='commentDate'>
+      {{item.create_time}}
+    </view>
+    <view class='commentContent'>
+      {{item.comment}}
+    </view>
+  </view>
+</view>

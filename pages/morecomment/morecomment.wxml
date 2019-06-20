@@ -1,0 +1,18 @@
+<view class='commentTotal'>
+  <view class='commentVideo' bindtap='onBack'>
+    <image class='commentVideoPhoto' src='{{videoUrl}}'></image>
+    <view class='commentVideoTitle'>{{videotitle}}</view>
+    <view class='commentVideoScore'>{{grade}}分</view>
+  </view>
+
+  <view class='commentContent'>
+    <view class='totalCommentTitle'>全部短评({{total}})</view>
+    <onecomment wx:for="{{commentTotal}}" wx:key="{{item}}" item="{{item}}"></onecomment>
+  </view>
+
+  <view>
+    <button class='downBtn' wx:if = "{{noData}}">已经都底了</button>
+    <button class='downBtn' wx:elif="{{btnShow}}">下拉获取更多数据</button>
+    <button class='downBtn' wx:else loading="true">获取数据中...</button>
+  </view>
+</view>

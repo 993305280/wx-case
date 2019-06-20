@@ -1,0 +1,5 @@
+<searchbar></searchbar>
+
+<view class='container'>
+  <onevideo wx:for="{{items}}" oneVideoUrl="/pages/videoDetail/videoDetail?type={{type}}&id={{item.id}}" item = "{{item}}" wx:key = "{{index}}"></onevideo>
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "star": "/components/star/star",
+    "onecomment": "/components/onecomment/onecomment"
+  },
+  "navigationBarTitleText": "视频详情"
+}

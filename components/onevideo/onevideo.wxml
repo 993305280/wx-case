@@ -1,0 +1,10 @@
+<navigator wx:if = "{{item}}" class='videoScrollItem' url='{{oneVideoUrl}}'>
+  <view class='photoBox'>
+    <image class='bigPhotoBox' src="{{item.cover.url}}"></image>
+  </view>
+  <view class='videoTitle'>{{item.title}}</view>
+  <star rate="{{item.rating.value}}"></star>
+</navigator>
+
+<!-- 解决最后一列图片空白 -->
+<view wx:else class='videoScrollItem'></view>

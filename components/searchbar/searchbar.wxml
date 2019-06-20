@@ -1,0 +1,10 @@
+
+<view wx:if="{{showValue}}" class='searchBar'>
+  <view class='searchBox'>
+    <input class='searchGroup searchInput' bindinput='onInputEvent' focus="true" placeholder='请输入你要了解的电影'></input>
+  </view>
+</view>
+
+<view wx:else class='searchBar'>
+  <navigator class='searchGroup' url='/pages/search/search'></navigator>
+</view>

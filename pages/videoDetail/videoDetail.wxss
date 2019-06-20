@@ -1,0 +1,66 @@
+.videoDetail {
+  margin: 50rpx 20rpx 15rpx;
+}
+.videoDetail .videoName {
+  font-size: 50rpx;
+}
+.videoDetail .videoIntro {
+  display: flex;
+}
+.videoDetail .introLeft{
+  font-size: 32rpx;
+  line-height: 46rpx;
+  flex: 1
+}
+.videoDetail .videoComment {
+  display: flex;
+  align-items: center;
+  margin: 20rpx 0;
+  
+}
+.videoDetail .videoCommentNum {
+  margin-left: 10rpx;
+  color: #ccc;
+  font-size: 30rpx;
+}
+.videoDetail .introRight {
+  width: 200rpx;
+  height: 300rpx;
+  margin: 0 15rpx;
+}
+.videoDetail .introRight .videoPhoto {
+  width: 100%;
+  height: 100%;
+}
+.videoTag{
+  margin-top: 60rpx;
+}
+.videoTag .peopleTag {
+  color: #353535;
+  font-size: 35rpx;
+  margin-bottom: 10rpx; 
+}
+.videoTag .videoTagIntro text {
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 50rpx;
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  margin: 15rpx;
+}
+
+.shortComment .commentTitle {
+  margin: 65rpx 0 35rpx;
+  color:#ccc;
+  font-size: 35rpx;
+}
+
+.moreComment {
+  width: 100%;
+  height: 90rpx;
+  margin-top: 35rpx;
+  text-align: center;
+  line-height: 90rpx;
+  font-size: 36rpx;
+  color: #41be57;
+}

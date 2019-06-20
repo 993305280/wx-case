@@ -1,0 +1,24 @@
+.searchDataList {
+  padding-top: 15rpx;
+}
+.searchListItem {
+  display: flex;
+  padding: 20rpx 25rpx;
+  border-bottom: 1rpx #ccc solid;
+}
+.searchVideoPhoto {
+  width: 90rpx;
+  height: 120rpx;
+  margin-right: 20rpx;
+}
+.searchVideoIntro {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5rpx 0;
+}
+.searchVideoTime {
+  color: gray;
+  font-size: 35rpx;
+}

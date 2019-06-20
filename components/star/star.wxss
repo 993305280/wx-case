@@ -1,0 +1,14 @@
+.videoStar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.videoStar .starPhoto {
+  width: 20rpx;
+  height: 20rpx;
+}
+.videoStar .starText {
+  font-size: 25rpx;
+  color: #ccc;
+  margin-left: 5rpx;
+}
