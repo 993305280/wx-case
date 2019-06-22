@@ -22,3 +22,21 @@
   color: gray;
   font-size: 35rpx;
 }
+.history {
+  padding: 0 30rpx;
+}
+.historyTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rpx;
+  height: 80rpx;
+  background: #f9f9f9;
+  font-size: 33rpx;
+  color: gray;
+}
+.historyBottom {
+  padding: 20rpx 10rpx;
+  border-bottom: 1rpx #ccc solid;
+  font-size: 36rpx;
+}

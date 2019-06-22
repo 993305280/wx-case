@@ -1,6 +1,16 @@
 <seachbar bindsearchComEvent="onsearchListData" showValue="{{true}}"></seachbar>
+
+<view class='history' wx:if="{{!searchTotailData}}">
+  <view class='historyTop'>
+    <view class='historyTopLetf'>历史记录</view>
+    <view class='historyTopRight' bindtap='onClearHistory'>清除</view>
+  </view >
+  <navigator url='/pages/videoDetail/videoDetail?type=movie&id={{item.id}}' class='historyBottom' wx:for="{{historyArray}}" wx:key="{{item.id}}">{{item.title}}</navigator>
+</view>
+
+
 <view class='searchDataList'>
-    <view wx:for="{{searchTotailData}}" wx:key="{{index}}" class='searchListItem' bindtap='onDetailPage' data-id = "{{item.id}}">
+    <view wx:for="{{searchTotailData}}" wx:key="{{index}}" class='searchListItem' bindtap='onSearchDetailPage' data-id="{{item.id}}" data-title="{{item.title}}">
       <image class='searchVideoPhoto' src='{{item.pic.normal}}'></image>
       <view class='searchVideoIntro'>
         <view class='searchVideoName'>{{item.title}}</view>
